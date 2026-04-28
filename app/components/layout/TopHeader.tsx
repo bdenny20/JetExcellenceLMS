@@ -8,7 +8,7 @@ type TopHeaderProps = {
 
 export function TopHeader({ role, onRoleChange }: TopHeaderProps) {
     return (
-        <header className="bg-black text-white">
+        <header className="bg-red-600 text-white">
             <div className="flex min-h-24 items-center justify-between px-8">
                 <div className="flex items-center gap-5">
                     <div className="flex h-20 w-44 items-center justify-center p-2">
